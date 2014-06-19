@@ -29,11 +29,6 @@ seajs.use('increasenumber', function(IncreaseNumber) {
 });
 ```
 
-<style type="text/css">
-.option-name{color:#784942}
-.option-value{font-style:italic}
-</style>
-
 ## API
 
 ### <span class="option-name">start()</span>
