@@ -1,0 +1,33 @@
+{
+  "name": "increasenumber",
+  "version": "1.0.0",
+  "description": "The animation for automatically increase number",
+  "keywords": [],
+  "homepage": "https://github.com/kasinooya/IncreaseNumber",
+  "author": "wenyao.mwy <wenyao.mwy@alibaba-inc.com>",
+  "maintainers": [
+    "wenyao.mwy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kasinooya/IncreaseNumber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kasinooya/IncreaseNumber/issues"
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "IncreaseNumber.js",
+    "dependencies": {
+      "jquery": "1.7.2"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    },
+    "engines": {
+      "seajs": "2.2.1"
+    },
+    "tests": "tests/*-spec.js",
+    "buildArgs": "--ignore jquery"
+  }
+}
